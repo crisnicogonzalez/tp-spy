@@ -21,7 +21,7 @@ def do_something(sc,time):
     print "Search newPaper page..."
     aNewsPaperRecord = newPapersQueue.get()
     print aNewsPaperRecord.name
-    if not(getPageFromLink(aNewsPaperRecord.link)):
+    if not(getPageFromLink(aNewsPaperRecord.link,aNewsPaperRecord.name)):
         time += time + 10
     s.enter(time, 1, do_something, (sc,time,))
 
