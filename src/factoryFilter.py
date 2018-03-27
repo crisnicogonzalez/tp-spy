@@ -6,9 +6,7 @@ clarin = ClarinFilter()
 laNacion = LaNacionFilter()
 
 def getFilter(newsPaperName):
-    print 'get filter of:'+newsPaperName
-    adict = {
+    return {
     'Clarin':clarin,
     'La Nacion':laNacion
-    }
-    adict[newsPaperName]
+    }[newsPaperName]
