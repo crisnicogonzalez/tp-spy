@@ -3,9 +3,6 @@ from bs4 import BeautifulSoup
 import urllib2
 import re
 from sets import Set
-from FactorFilter import getFilter
-
-
 
 
 def getPageFromLink(link,newsPapersName):

@@ -26,5 +26,5 @@ def do_something(sc,time):
     s.enter(time, 1, do_something, (sc,time,))
 
 getUpNewPapers()
-s.enter(60, 1, do_something, (s,10))
+s.enter(10, 1, do_something, (s,10))
 s.run()

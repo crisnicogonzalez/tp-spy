@@ -1,4 +1,4 @@
-from ClarinFilter import ClarinFilter
+from clarinFilter import ClarinFilter
 
 clarin = ClarinFilter()
 
