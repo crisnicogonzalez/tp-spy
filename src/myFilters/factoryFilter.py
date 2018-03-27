@@ -1,5 +1,5 @@
-from clarinFilter import ClarinFilter
-from laNacionFilter import LaNacionFilter
+from src.myFilters.clarinFilter import ClarinFilter
+from src.myFilters.laNacionFilter import LaNacionFilter
 
 
 clarin = ClarinFilter()

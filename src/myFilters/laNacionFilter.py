@@ -1,4 +1,4 @@
-from abstractFilter import AbstractFilter
+from src.myFilters.abstractFilter import AbstractFilter
 
 class LaNacionFilter(AbstractFilter):
     def __init__(self):
